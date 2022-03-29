@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:background="@drawable/backgroud"
     tools:context=".MainActivity">
@@ -34,6 +35,23 @@
                 android:layout_height="match_parent"/>
         </RelativeLayout>
     </androidx.appcompat.widget.Toolbar>
+
+    <androidx.cardview.widget.CardView
+        app:cardElevation="8dp"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchView_home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background_searchbox"
+            app:queryHint="Bạn thèm gì khum..."
+            app:iconifiedByDefault="false"
+            app:searchIcon="@mipmap/ic_search">
+
+        </androidx.appcompat.widget.SearchView>
+    </androidx.cardview.widget.CardView>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_random"
