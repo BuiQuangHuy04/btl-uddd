@@ -1530,6 +1530,7 @@ drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
 drawable backgroud
+drawable background_searchbox
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1857,6 +1858,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id searchView_home
 id search_badge
 id search_bar
 id search_button
@@ -2095,6 +2097,7 @@ layout text_view_without_line_height
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
+mipmap ic_search
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description

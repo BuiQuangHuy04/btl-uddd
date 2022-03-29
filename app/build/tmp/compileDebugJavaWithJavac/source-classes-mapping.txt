@@ -20,16 +20,17 @@ com/example/foodapp/Models/RandomRecipeApiResponse.java
  com.example.foodapp.Models.RandomRecipeApiResponse
 com/example/foodapp/Models/Ingredient.java
  com.example.foodapp.Models.Ingredient
+com/example/foodapp/RequestManager.java
+ com.example.foodapp.RequestManager
+ com.example.foodapp.RequestManager$1
+ com.example.foodapp.RequestManager$CallRandomRecipes
 com/example/foodapp/Models/Measures.java
  com.example.foodapp.Models.Measures
 com/example/foodapp/Adapters/RandomRecipeAdapter.java
  com.example.foodapp.Adapters.RandomRecipeAdapter
  com.example.foodapp.Adapters.RandomRecipeViewHolder
-com/example/foodapp/RequestManager.java
- com.example.foodapp.RequestManager
- com.example.foodapp.RequestManager$1
- com.example.foodapp.RequestManager$CallRandomRecipes
 com/example/foodapp/MainActivity.java
  com.example.foodapp.MainActivity
  com.example.foodapp.MainActivity$1
  com.example.foodapp.MainActivity$2
+ com.example.foodapp.MainActivity$3

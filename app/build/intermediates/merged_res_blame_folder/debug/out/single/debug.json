@@ -16,12 +16,20 @@
         "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_search.png.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_search.png"
+    },
+    {
         "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
         "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_background_searchbox.png.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\drawable\\background_searchbox.png"
     },
     {
         "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -42,6 +50,10 @@
     {
         "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_likes.xml.flat",
         "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\drawable\\ic_likes.xml"
+    },
+    {
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_search.png.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_search.png"
     },
     {
         "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
@@ -72,6 +84,10 @@
         "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_search.png.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_search.png"
+    },
+    {
         "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
@@ -92,6 +108,10 @@
         "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\layout\\spinner_text.xml"
     },
     {
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_search.png.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_search.png"
+    },
+    {
         "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\layout_spinner_inner_text.xml.flat",
         "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\layout\\spinner_inner_text.xml"
     },
@@ -102,5 +122,9 @@
     {
         "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_search.png.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_search.png"
     }
 ]
