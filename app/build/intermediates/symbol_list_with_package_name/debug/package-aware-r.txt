@@ -45,6 +45,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array tags
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -1528,6 +1529,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable backgroud
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1543,7 +1545,6 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_launcher_background
-drawable ic_launcher_foreground
 drawable ic_likes
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
@@ -1881,6 +1882,7 @@ id snackbar_text
 id snap
 id snapMargins
 id spacer
+id spinner_tags
 id spline
 id split_action_bar
 id spread
@@ -2089,6 +2091,7 @@ layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
