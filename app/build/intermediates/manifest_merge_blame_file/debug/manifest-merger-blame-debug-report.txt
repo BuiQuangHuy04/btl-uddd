@@ -1,0 +1,64 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.foodapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\buiqu\Study\PTUDDD\FoodApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\buiqu\Study\PTUDDD\FoodApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\buiqu\Study\PTUDDD\FoodApp\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Users\buiqu\Study\PTUDDD\FoodApp\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\Users\buiqu\Study\PTUDDD\FoodApp\app\src\main\AndroidManifest.xml:7:5-22:19
+14        android:allowBackup="true"
+14-->C:\Users\buiqu\Study\PTUDDD\FoodApp\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.3.1] C:\Users\buiqu\.gradle\caches\transforms-3\d2b38ed747382c5e5a6e7478df98d3b8\transformed\core-1.3.1\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:extractNativeLibs="false"
+18        android:icon="@mipmap/ic_launcher"
+18-->C:\Users\buiqu\Study\PTUDDD\FoodApp\app\src\main\AndroidManifest.xml:9:9-43
+19        android:label="@string/app_name"
+19-->C:\Users\buiqu\Study\PTUDDD\FoodApp\app\src\main\AndroidManifest.xml:10:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->C:\Users\buiqu\Study\PTUDDD\FoodApp\app\src\main\AndroidManifest.xml:11:9-54
+21        android:supportsRtl="true"
+21-->C:\Users\buiqu\Study\PTUDDD\FoodApp\app\src\main\AndroidManifest.xml:12:9-35
+22        android:testOnly="true"
+23        android:theme="@style/Theme.FoodApp" >
+23-->C:\Users\buiqu\Study\PTUDDD\FoodApp\app\src\main\AndroidManifest.xml:13:9-45
+24        <activity
+24-->C:\Users\buiqu\Study\PTUDDD\FoodApp\app\src\main\AndroidManifest.xml:14:9-21:20
+25            android:name="com.example.foodapp.MainActivity"
+25-->C:\Users\buiqu\Study\PTUDDD\FoodApp\app\src\main\AndroidManifest.xml:14:19-47
+26            android:exported="true" >
+26-->C:\Users\buiqu\Study\PTUDDD\FoodApp\app\src\main\AndroidManifest.xml:15:13-36
+27            <intent-filter>
+27-->C:\Users\buiqu\Study\PTUDDD\FoodApp\app\src\main\AndroidManifest.xml:16:13-20:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->C:\Users\buiqu\Study\PTUDDD\FoodApp\app\src\main\AndroidManifest.xml:17:17-69
+28-->C:\Users\buiqu\Study\PTUDDD\FoodApp\app\src\main\AndroidManifest.xml:17:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\Users\buiqu\Study\PTUDDD\FoodApp\app\src\main\AndroidManifest.xml:19:17-77
+30-->C:\Users\buiqu\Study\PTUDDD\FoodApp\app\src\main\AndroidManifest.xml:19:27-74
+31            </intent-filter>
+32        </activity>
+33
+34        <provider
+34-->[com.squareup.picasso:picasso:2.71828] C:\Users\buiqu\.gradle\caches\transforms-3\26430b46275bb26df2f8ca82b00dfce3\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+35            android:name="com.squareup.picasso.PicassoProvider"
+35-->[com.squareup.picasso:picasso:2.71828] C:\Users\buiqu\.gradle\caches\transforms-3\26430b46275bb26df2f8ca82b00dfce3\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
+36            android:authorities="com.example.foodapp.com.squareup.picasso"
+36-->[com.squareup.picasso:picasso:2.71828] C:\Users\buiqu\.gradle\caches\transforms-3\26430b46275bb26df2f8ca82b00dfce3\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
+37            android:exported="false" />
+37-->[com.squareup.picasso:picasso:2.71828] C:\Users\buiqu\.gradle\caches\transforms-3\26430b46275bb26df2f8ca82b00dfce3\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
+38    </application>
+39
+40</manifest>

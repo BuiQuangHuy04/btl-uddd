@@ -1,0 +1,34 @@
+com/example/foodapp/Models/Metric.java
+ com.example.foodapp.Models.Metric
+com/example/foodapp/Listeners/RandomRecipeResponseListener.java
+ com.example.foodapp.Listeners.RandomRecipeResponseListener
+com/example/foodapp/Models/Equipment.java
+ com.example.foodapp.Models.Equipment
+com/example/foodapp/Models/Step.java
+ com.example.foodapp.Models.Step
+com/example/foodapp/Models/AnalyzedInstruction.java
+ com.example.foodapp.Models.AnalyzedInstruction
+com/example/foodapp/Models/Recipe.java
+ com.example.foodapp.Models.Recipe
+com/example/foodapp/Models/Us.java
+ com.example.foodapp.Models.Us
+com/example/foodapp/Models/ExtendedIngredient.java
+ com.example.foodapp.Models.ExtendedIngredient
+com/example/foodapp/BuildConfig.java
+ com.example.foodapp.BuildConfig
+com/example/foodapp/Models/RandomRecipeApiResponse.java
+ com.example.foodapp.Models.RandomRecipeApiResponse
+com/example/foodapp/Models/Ingredient.java
+ com.example.foodapp.Models.Ingredient
+com/example/foodapp/RequestManager.java
+ com.example.foodapp.RequestManager
+ com.example.foodapp.RequestManager$1
+ com.example.foodapp.RequestManager$CallRandomRecipes
+com/example/foodapp/Models/Measures.java
+ com.example.foodapp.Models.Measures
+com/example/foodapp/MainActivity.java
+ com.example.foodapp.MainActivity
+ com.example.foodapp.MainActivity$1
+com/example/foodapp/Adapters/RandomRecipeAdapter.java
+ com.example.foodapp.Adapters.RandomRecipeAdapter
+ com.example.foodapp.Adapters.RandomRecipeViewHolder
