@@ -88,6 +88,14 @@
         "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\drawable\\backgroud.png"
     },
     {
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\layout_spinner_text.xml.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\layout\\spinner_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\layout_spinner_inner_text.xml.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\layout\\spinner_inner_text.xml"
+    },
+    {
         "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
