@@ -51,9 +51,9 @@ public class RequestManager {
         });
     }
 
-    protected void  getRecipeDetails(RecipeDetailsListener listener, int id){
-        CallRecipeDetails callRecipeDetails= retrofit.create(CallRecipeDetails.class);
-        Call<RecipeDetailsResponse> call = callRecipeDetails.callRecipeDetais(id,context.getString(R.string.api_key));
+    public void getRecipeDetails(RecipeDetailsListener listener, int id){
+        CallRecipeDetails callRecipeDetails = retrofit.create(CallRecipeDetails.class);
+        Call<RecipeDetailsResponse> call = callRecipeDetails.callRecipeDetails(id, context.getString(R.string.api_key));
         call.enqueue(new Callback<RecipeDetailsResponse>() {
             @Override
             public void onResponse(Call<RecipeDetailsResponse> call, Response<RecipeDetailsResponse> response) {
@@ -66,6 +66,7 @@ public class RequestManager {
 
             @Override
             public void onFailure(Call<RecipeDetailsResponse> call, Throwable t) {
+
                 listener.didError(t.getMessage());
             }
         });
@@ -80,7 +81,7 @@ public class RequestManager {
     }
     private interface  CallRecipeDetails{
         @GET("recipes/{id}/information")
-        Call<RecipeDetailsResponse> callRecipeDetais(
+        Call<RecipeDetailsResponse> callRecipeDetails(
                 @Part("id")int id,
                 @Query("apiKey") String apiKey
 

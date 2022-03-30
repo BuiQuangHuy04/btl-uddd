@@ -4,12 +4,12 @@
         "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\btl-uddd\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_recipe_details.xml.flat",
-        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\btl-uddd\\app\\src\\main\\res\\layout\\activity_recipe_details.xml"
-    },
-    {
         "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\btl-uddd\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_recipe_details.xml.flat",
+        "source": "C:\\Users\\ADMIN\\AndroidStudioProjects\\btl-uddd\\app\\src\\main\\res\\layout\\activity_recipe_details.xml"
     },
     {
         "merged": "C:\\Users\\ADMIN\\AndroidStudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",

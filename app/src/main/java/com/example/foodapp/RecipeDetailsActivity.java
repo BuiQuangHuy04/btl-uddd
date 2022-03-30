@@ -55,14 +55,15 @@ public class RecipeDetailsActivity extends AppCompatActivity {
             dialog.dismiss();
             textView_meal_name.setText(response.title);
             textView_meal_source.setText(response.sourceName);
-            textView_meal_summary.setText(Html.fromHtml(response.summary));
+            textView_meal_summary.setText(response.summary);
             Picasso.get().load(response.image).into(imageView_meal_image);
-            //recycle_meal_ingredients.setHasFixedSize(true);
-           // recycle_meal_ingredients.setLayoutManager(new LinearLayoutManager(RecipeDetailsActivity.this,LinearLayoutManager.HORIZONTAL,false));
+            recycler_meal_ingredients.setHasFixedSize(true);
+           recycler_meal_ingredients.setLayoutManager(new LinearLayoutManager(RecipeDetailsActivity.this,LinearLayoutManager.HORIZONTAL,false));
             Log.d("a","Before instruction");
             ingredientsAdapter = new IngredientsAdapter(RecipeDetailsActivity.this,response.extendedIngredients);
             //recycle_meal_ingredients.setAdapter(ingredientsAdapter);
             Log.d("a","After instruction")    ;
+            recycler_meal_ingredients.setAdapter(ingredientsAdapter);
         }
 
         @Override

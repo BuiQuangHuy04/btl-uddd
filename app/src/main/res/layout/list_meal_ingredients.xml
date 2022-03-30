@@ -32,6 +32,7 @@
     <TextView
         android:id="@+id/textView_ingredients_name"
         android:text="Chicken"
+        android:singleLine="true"
         android:ellipsize="marquee"
         android:marqueeRepeatLimit="marquee_forever"
         android:scrollHorizontally="true"
