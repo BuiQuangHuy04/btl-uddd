@@ -3,7 +3,9 @@ package com.example.foodapp;
 import android.content.Context;
 
 import com.example.foodapp.Listeners.RandomRecipeResponseListener;
+import com.example.foodapp.Listeners.RecipeDetailsListener;
 import com.example.foodapp.Models.RandomRecipeApiResponse;
+import com.example.foodapp.Models.RecipeDetailsResponse;
 
 import java.util.List;
 
@@ -13,6 +15,7 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.http.GET;
+import retrofit2.http.Part;
 import retrofit2.http.Query;
 
 public class RequestManager {
@@ -48,13 +51,40 @@ public class RequestManager {
         });
     }
 
+    protected void  getRecipeDetails(RecipeDetailsListener listener, int id){
+        CallRecipeDetails callRecipeDetails= retrofit.create(CallRecipeDetails.class);
+        Call<RecipeDetailsResponse> call = callRecipeDetails.callRecipeDetais(id,context.getString(R.string.api_key));
+        call.enqueue(new Callback<RecipeDetailsResponse>() {
+            @Override
+            public void onResponse(Call<RecipeDetailsResponse> call, Response<RecipeDetailsResponse> response) {
+                if(!response.isSuccessful()){
+                    listener.didError(response.message());
+                    return;
+                }
+                listener.didFetch(response.body(), response.message());
+            }
 
+            @Override
+            public void onFailure(Call<RecipeDetailsResponse> call, Throwable t) {
+                listener.didError(t.getMessage());
+            }
+        });
+    }
     private interface CallRandomRecipes{
         @GET("recipes/random")
         Call<RandomRecipeApiResponse> callRandomRecipe(
                 @Query("apiKey") String apiKey,
                 @Query("number") String number,
-                @Query("tag") List<String> tags
+                @Query("tags") List<String> tags
                 );
     }
+    private interface  CallRecipeDetails{
+        @GET("recipes/{id}/information")
+        Call<RecipeDetailsResponse> callRecipeDetais(
+                @Part("id")int id,
+                @Query("apiKey") String apiKey
+
+        );
+    }
+
 }

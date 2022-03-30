@@ -22,6 +22,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.FoodApp" >
         <activity
+            android:name="com.example.foodapp.RecipeDetailsActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.foodapp.MainActivity"
             android:exported="true" >
             <intent-filter>

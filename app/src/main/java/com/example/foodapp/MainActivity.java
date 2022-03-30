@@ -6,7 +6,10 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -15,6 +18,7 @@ import android.widget.Toast;
 
 import com.example.foodapp.Adapters.RandomRecipeAdapter;
 import com.example.foodapp.Listeners.RandomRecipeResponseListener;
+import com.example.foodapp.Listeners.RecipeClickListener;
 import com.example.foodapp.Models.RandomRecipeApiResponse;
 
 import java.util.ArrayList;
@@ -35,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         dialog = new ProgressDialog(this);
-        dialog.setTitle("Đang tải...");
+        dialog.setTitle("Loading...");
 
         searchView = findViewById(R.id.searchView_home);
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
@@ -60,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         );
         arrayAdapter.setDropDownViewResource(R.layout.spinner_inner_text);
         spinner.setAdapter(arrayAdapter);
-        spinner.setOnItemSelectedListener(selectedListener);
+        spinner.setOnItemSelectedListener(spinnerSelectedListener);
 
         manager = new RequestManager(this);
 //        manager.getRandomRecipes(randomRecipeResponseListener);
@@ -73,29 +77,43 @@ public class MainActivity extends AppCompatActivity {
             recyclerView = findViewById(R.id.recycler_random);
             recyclerView.setHasFixedSize(true);
             recyclerView.setLayoutManager(new GridLayoutManager(MainActivity.this, 1));
-            randomRecipeAdapter = new RandomRecipeAdapter(MainActivity.this, response.recipes);
+            randomRecipeAdapter = new RandomRecipeAdapter(MainActivity.this,response.recipes,recipeClickListener);
             recyclerView.setAdapter(randomRecipeAdapter);
         }
 
         @Override
         public void didError(String message) {
-            Toast.makeText(MainActivity.this,message, Toast.LENGTH_SHORT).show();
-
+            Toast.makeText(MainActivity.this, message, Toast.LENGTH_SHORT).show();
         }
     };
 
-    private final AdapterView.OnItemSelectedListener selectedListener = new AdapterView.OnItemSelectedListener() {
+    private final AdapterView.OnItemSelectedListener spinnerSelectedListener = new AdapterView.OnItemSelectedListener() {
         @Override
         public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+            Log.d("abc","onItemSelected Function");
             tags.clear();
             tags.add(adapterView.getSelectedItem().toString());
-            manager.getRandomRecipes(randomRecipeResponseListener, tags);
+            if(tags ==null ){
+                Log.d("abc","No Context");
+            }
+            String joined = TextUtils.join(", ", tags);
+            Log.d("abc","This is tags context: "+ joined);
+            manager.getRandomRecipes(randomRecipeResponseListener,tags);
             dialog.show();
         }
 
         @Override
         public void onNothingSelected(AdapterView<?> adapterView) {
 
+            Log.d("abc","onNothingSelected Function");
+        }
+    };
+    private final RecipeClickListener recipeClickListener = new RecipeClickListener() {
+        @Override
+        public void onRecipeClicked(String id) {
+            startActivity(new Intent(MainActivity.this, RecipeDetailsActivity.class)
+                    .putExtra("id",id)
+            );
         }
     };
 }

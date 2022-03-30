@@ -1762,6 +1762,8 @@ id ignore
 id ignoreRequest
 id image
 id imageView_food
+id imageView_ingredients
+id imageView_meal_image
 id info
 id invisible
 id italic
@@ -1841,6 +1843,7 @@ id radio
 id random_list_container
 id ratio
 id rectangles
+id recycler_meal_ingredients
 id recycler_random
 id reverseSawtooth
 id right
@@ -1922,7 +1925,12 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView_ingredients_name
+id textView_ingredients_quantity
 id textView_likes
+id textView_meal_name
+id textView_meal_source
+id textView_meal_summary
 id textView_servings
 id textView_time
 id textView_title
@@ -2023,6 +2031,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_recipe_details
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2039,6 +2048,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout list_meal_ingredients
 layout list_random_recipe
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
