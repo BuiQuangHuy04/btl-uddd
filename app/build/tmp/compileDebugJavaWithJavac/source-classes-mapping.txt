@@ -4,8 +4,9 @@ com/example/foodapp/Models/ProductMatch.java
  com.example.foodapp.Models.ProductMatch
 com/example/foodapp/Listeners/RandomRecipeResponseListener.java
  com.example.foodapp.Listeners.RandomRecipeResponseListener
-com/example/foodapp/Models/Measures.java
- com.example.foodapp.Models.Measures
+com/example/foodapp/RecipeDetailsActivity.java
+ com.example.foodapp.RecipeDetailsActivity
+ com.example.foodapp.RecipeDetailsActivity$1
 com/example/foodapp/Models/RecipeDetailsResponse.java
  com.example.foodapp.Models.RecipeDetailsResponse
 com/example/foodapp/Listeners/RecipeDetailsListener.java
@@ -32,16 +33,14 @@ com/example/foodapp/Models/RandomRecipeApiResponse.java
  com.example.foodapp.Models.RandomRecipeApiResponse
 com/example/foodapp/Models/Ingredient.java
  com.example.foodapp.Models.Ingredient
-com/example/foodapp/Adapters/RandomRecipeAdapter.java
- com.example.foodapp.Adapters.RandomRecipeAdapter
- com.example.foodapp.Adapters.RandomRecipeAdapter$1
- com.example.foodapp.Adapters.RandomRecipeViewHolder
 com/example/foodapp/RequestManager.java
  com.example.foodapp.RequestManager
  com.example.foodapp.RequestManager$1
  com.example.foodapp.RequestManager$2
  com.example.foodapp.RequestManager$CallRandomRecipes
  com.example.foodapp.RequestManager$CallRecipeDetails
+com/example/foodapp/Models/Measures.java
+ com.example.foodapp.Models.Measures
 com/example/foodapp/MainActivity.java
  com.example.foodapp.MainActivity
  com.example.foodapp.MainActivity$1
@@ -51,6 +50,7 @@ com/example/foodapp/MainActivity.java
 com/example/foodapp/Adapters/IngredientsAdapter.java
  com.example.foodapp.Adapters.IngredientsAdapter
  com.example.foodapp.Adapters.IngredientsViewHoder
-com/example/foodapp/RecipeDetailsActivity.java
- com.example.foodapp.RecipeDetailsActivity
- com.example.foodapp.RecipeDetailsActivity$1
+com/example/foodapp/Adapters/RandomRecipeAdapter.java
+ com.example.foodapp.Adapters.RandomRecipeAdapter
+ com.example.foodapp.Adapters.RandomRecipeAdapter$1
+ com.example.foodapp.Adapters.RandomRecipeViewHolder

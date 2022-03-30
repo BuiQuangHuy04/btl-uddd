@@ -19,6 +19,7 @@
             android:ellipsize="marquee"
             android:marqueeRepeatLimit="marquee_forever"
             android:scrollHorizontally="true"
+            android:fontFamily="@font/akaya_telivigala"
             android:textStyle="bold"
             android:textColor="@color/orange"
             android:textSize="22sp"
@@ -48,6 +49,7 @@
                 <TextView
                     android:id="@+id/textView_servings"
                     android:textSize="14sp"
+                    android:fontFamily="@font/akaya_telivigala"
                     android:padding="8dp"
                     android:text="2 Người"
                     android:textColor="@color/black"
@@ -70,6 +72,7 @@
                     android:padding="8dp"
                     android:text="2 Người"
                     android:textColor="@color/black"
+                    android:fontFamily="@font/akaya_telivigala"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
             </LinearLayout>
@@ -90,6 +93,7 @@
                     android:text="2 Người"
                     android:textColor="@color/black"
                     android:layout_width="wrap_content"
+                    android:fontFamily="@font/akaya_telivigala"
                     android:layout_height="wrap_content"/>
             </LinearLayout>
         </LinearLayout>

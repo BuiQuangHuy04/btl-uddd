@@ -1,138 +1,146 @@
 [
     {
-        "merged": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\drawable_backgroud.png.flat",
-        "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\src\\main\\res\\drawable\\backgroud.png"
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_search.png.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_search.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\layout_list_meal_ingredients.xml.flat",
-        "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\src\\main\\res\\layout\\list_meal_ingredients.xml"
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_recipe_details.xml.flat",
-        "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\src\\main\\res\\layout\\activity_recipe_details.xml"
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_background_searchbox.png.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\drawable\\background_searchbox.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_search.png.flat",
-        "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_search.png"
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_servings.xml.flat",
-        "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\src\\main\\res\\drawable\\ic_servings.xml"
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_time.xml.flat",
-        "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\src\\main\\res\\drawable\\ic_time.xml"
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_likes.xml.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\drawable\\ic_likes.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\font_akaya_telivigala.xml.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\font\\akaya_telivigala.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_search.png.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_search.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_search.png.flat",
-        "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\src\\main\\res\\mipmap-hdpi\\ic_search.png"
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_recipe_details.xml.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\layout\\activity_recipe_details.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\layout_spinner_text.xml.flat",
-        "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\src\\main\\res\\layout\\spinner_text.xml"
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\layout_list_meal_ingredients.xml.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\layout\\list_meal_ingredients.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_search.png.flat",
-        "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_search.png"
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\layout_list_random_recipe.xml.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\layout\\list_random_recipe.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_background.png.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\drawable\\background.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_servings.xml.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\drawable\\ic_servings.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\drawable_background_searchbox.png.flat",
-        "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\src\\main\\res\\drawable\\background_searchbox.png"
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_search.png.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_search.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\layout_spinner_inner_text.xml.flat",
-        "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\src\\main\\res\\layout\\spinner_inner_text.xml"
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_time.xml.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\drawable\\ic_time.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_search.png.flat",
-        "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\src\\main\\res\\mipmap-xhdpi\\ic_search.png"
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_likes.xml.flat",
-        "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\src\\main\\res\\drawable\\ic_likes.xml"
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\layout_spinner_text.xml.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\layout\\spinner_text.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_search.png.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_search.png"
     },
     {
-        "merged": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\font_arizonia.xml.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\font\\arizonia.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\layout_list_random_recipe.xml.flat",
-        "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\src\\main\\res\\layout\\list_random_recipe.xml"
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\layout_spinner_inner_text.xml.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\layout\\spinner_inner_text.xml"
     },
     {
-        "merged": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_search.png.flat",
-        "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd\\app\\src\\main\\res\\mipmap-mdpi\\ic_search.png"
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_search.png.flat",
+        "source": "C:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_search.png"
     }
 ]

@@ -4,6 +4,7 @@
     android:layout_height="wrap_content"
     android:text="Desert"
     android:textColor="@color/orange"
+    android:fontFamily="@font/akaya_telivigala"
     android:textSize="18sp"
     android:padding="8dp">
 

@@ -5,11 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/orange"
+    android:background="@drawable/background"
     tools:context=".RecipeDetailsActivity">
     <androidx.appcompat.widget.Toolbar
-        android:title="Recipe Details"
-        android:titleTextColor="@color/white"
+        app:title="Food Details"
+        app:titleTextColor="@color/white"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"/>
     <ScrollView
@@ -20,16 +20,18 @@
             android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
             <TextView
                 android:id="@+id/textView_meal_name"
-                android:text="Recipe Name"
-                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arizonia"
                 android:gravity="center"
                 android:padding="8dp"
+                android:text="Recipe Name"
                 android:textColor="@color/white"
-                android:textStyle="bold"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:textSize="26sp"
+                android:textStyle="bold" />
             <TextView
                 android:id="@+id/textView_meal_source"
                 android:text="Source"
@@ -37,6 +39,7 @@
                 android:textStyle="italic"
                 android:textColor="@color/white"
                 android:textSize="14sp"
+                android:fontFamily="@font/akaya_telivigala"
                 android:padding="8dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
@@ -49,10 +52,11 @@
             <TextView
                 android:id="@+id/textView_meal_summary"
                 android:text="Summary"
-                android:textSize="14sp"
+                android:textSize="16sp"
                 android:textColor="@color/white"
                 android:textStyle="normal"
                 android:padding="8dp"
+                android:fontFamily="@font/akaya_telivigala"
                 android:layout_margin="8dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
@@ -62,6 +66,7 @@
                 android:textSize="18sp"
                 android:textColor="@color/white"
                 android:padding="8dp"
+                android:fontFamily="@font/akaya_telivigala"
                 android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
