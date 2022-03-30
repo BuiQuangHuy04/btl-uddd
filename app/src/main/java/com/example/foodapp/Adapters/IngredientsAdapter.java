@@ -32,17 +32,18 @@ public class IngredientsAdapter extends  RecyclerView.Adapter<IngredientsViewHod
         return new IngredientsViewHoder(LayoutInflater.from(context).inflate(R.layout.list_meal_ingredients,parent, false));
 
     }
-
     @Override
     public void onBindViewHolder(@NonNull IngredientsViewHoder holder, int position) {
-  holder.textView_ingredients_name.setText(list.get(position).name);
- holder.textView_ingredients_name.setSelected(true);
-  holder.textView_ingredients_quantity.setText(list.get(position).original);
- holder.textView_ingredients_quantity.setSelected(true);
-
-        Picasso.get().load("http://spoonacular.com/cdn/ingredients_100x100/"+list.get(position).image).into(holder.imageView_ingredients);
+        holder.textView_ingredients_name.setText(list.get(position).name);
+        holder.textView_ingredients_name.setSelected(true);
+        holder.textView_ingredients_quantity.setText(list.get(position).original);
+        holder.textView_ingredients_quantity.setSelected(true);
+        Picasso.get().load("https://spoonacular.com/cdn/ingredients_100x100/"+list.get(position).image)
+                .into(holder.imageView_ingredients);
 
     }
+
+
 
     @Override
     public int getItemCount() {
