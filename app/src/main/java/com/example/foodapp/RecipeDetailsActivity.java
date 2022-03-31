@@ -64,6 +64,7 @@ public class RecipeDetailsActivity extends AppCompatActivity {
             //recycle_meal_ingredients.setAdapter(ingredientsAdapter);
             Log.d("a","After instruction")    ;
             recycler_meal_ingredients.setAdapter(ingredientsAdapter);
+            textView_meal_summary.setText(Html.fromHtml(response.summary));
         }
 
         @Override

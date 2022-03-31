@@ -4,12 +4,13 @@ com/example/foodapp/Models/ProductMatch.java
  com.example.foodapp.Models.ProductMatch
 com/example/foodapp/Listeners/RandomRecipeResponseListener.java
  com.example.foodapp.Listeners.RandomRecipeResponseListener
-com/example/foodapp/Models/Measures.java
- com.example.foodapp.Models.Measures
+com/example/foodapp/Adapters/IngredientsAdapter.java
+ com.example.foodapp.Adapters.IngredientsAdapter
+ com.example.foodapp.Adapters.IngredientsViewHoder
 com/example/foodapp/Models/RecipeDetailsResponse.java
  com.example.foodapp.Models.RecipeDetailsResponse
-com/example/foodapp/Listeners/RecipeDetailsListener.java
- com.example.foodapp.Listeners.RecipeDetailsListener
+com/example/foodapp/Models/Measures.java
+ com.example.foodapp.Models.Measures
 com/example/foodapp/Models/Equipment.java
  com.example.foodapp.Models.Equipment
 com/example/foodapp/Models/WinePairing.java
@@ -48,9 +49,8 @@ com/example/foodapp/MainActivity.java
  com.example.foodapp.MainActivity$2
  com.example.foodapp.MainActivity$3
  com.example.foodapp.MainActivity$4
-com/example/foodapp/Adapters/IngredientsAdapter.java
- com.example.foodapp.Adapters.IngredientsAdapter
- com.example.foodapp.Adapters.IngredientsViewHoder
 com/example/foodapp/RecipeDetailsActivity.java
  com.example.foodapp.RecipeDetailsActivity
  com.example.foodapp.RecipeDetailsActivity$1
+com/example/foodapp/Listeners/RecipeDetailsListener.java
+ com.example.foodapp.Listeners.RecipeDetailsListener
