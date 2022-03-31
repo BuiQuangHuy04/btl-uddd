@@ -1770,6 +1770,7 @@ id image
 id imageView_food
 id imageView_ingredients
 id imageView_meal_image
+id imageView_similar
 id info
 id invisible
 id italic
@@ -1850,6 +1851,7 @@ id random_list_container
 id ratio
 id rectangles
 id recycler_meal_ingredients
+id recycler_meal_similar
 id recycler_random
 id reverseSawtooth
 id right
@@ -1884,6 +1886,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id similar_recipe_holder
 id sin
 id skipCollapsed
 id slide
@@ -1938,6 +1941,8 @@ id textView_meal_name
 id textView_meal_source
 id textView_meal_summary
 id textView_servings
+id textView_similar_servings
+id textView_similar_title
 id textView_time
 id textView_title
 id text_input_end_icon
@@ -2056,6 +2061,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout list_meal_ingredients
 layout list_random_recipe
+layout list_similar_recipe
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
