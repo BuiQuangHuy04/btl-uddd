@@ -16,7 +16,7 @@ import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
-public class IngredientsAdapter extends  RecyclerView.Adapter<IngredientsViewHoder> {
+public class IngredientsAdapter extends RecyclerView.Adapter<IngredientsViewHoder> {
 
     Context context;
     List<ExtendedIngredient> list;
@@ -29,7 +29,7 @@ public class IngredientsAdapter extends  RecyclerView.Adapter<IngredientsViewHod
     @NonNull
     @Override
     public IngredientsViewHoder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        return new IngredientsViewHoder(LayoutInflater.from(context).inflate(R.layout.list_meal_ingredients,parent, false));
+        return new IngredientsViewHoder(LayoutInflater.from(context).inflate(R.layout.list_meal_ingredients, parent, false));
 
     }
     @Override
@@ -50,14 +50,16 @@ public class IngredientsAdapter extends  RecyclerView.Adapter<IngredientsViewHod
         return list.size();
     }
 }
-class IngredientsViewHoder extends RecyclerView.ViewHolder{
-    TextView textView_ingredients_quantity,textView_ingredients_name;
+
+class IngredientsViewHoder extends RecyclerView.ViewHolder {
+    TextView textView_ingredients_quantity, textView_ingredients_name;
     ImageView imageView_ingredients;
+
     public IngredientsViewHoder(@NonNull View itemView) {
         super(itemView);
-        textView_ingredients_quantity= itemView.findViewById(R.id.textView_ingredients_quantity);
-        textView_ingredients_name= itemView.findViewById(R.id.textView_ingredients_name);
-        imageView_ingredients= itemView.findViewById(R.id.imageView_ingredients);
+        textView_ingredients_quantity = itemView.findViewById(R.id.textView_ingredients_quantity);
+        textView_ingredients_name = itemView.findViewById(R.id.textView_ingredients_name);
+        imageView_ingredients = itemView.findViewById(R.id.imageView_ingredients);
 
     }
 
