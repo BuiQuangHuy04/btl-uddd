@@ -1769,6 +1769,7 @@ int id image 0x7f0a00af
 int id imageView_food 0x7f0a00b0
 int id imageView_ingredients 0x7f0a00b1
 int id imageView_meal_image 0x7f0a00b2
+int id imageView_similar 0x7f0a0181
 int id info 0x7f0a00b3
 int id invisible 0x7f0a00b4
 int id italic 0x7f0a00b5
@@ -1849,6 +1850,7 @@ int id random_list_container 0x7f0a00ff
 int id ratio 0x7f0a0100
 int id rectangles 0x7f0a0101
 int id recycler_meal_ingredients 0x7f0a0102
+int id recycler_meal_similar 0x7f0a0182
 int id recycler_random 0x7f0a0103
 int id reverseSawtooth 0x7f0a0104
 int id right 0x7f0a0105
@@ -1883,6 +1885,7 @@ int id shortcut 0x7f0a0121
 int id showCustom 0x7f0a0122
 int id showHome 0x7f0a0123
 int id showTitle 0x7f0a0124
+int id similar_recipe_holder 0x7f0a0183
 int id sin 0x7f0a0125
 int id skipCollapsed 0x7f0a0126
 int id slide 0x7f0a0127
@@ -1937,6 +1940,8 @@ int id textView_meal_name 0x7f0a0157
 int id textView_meal_source 0x7f0a0158
 int id textView_meal_summary 0x7f0a0159
 int id textView_servings 0x7f0a015a
+int id textView_similar_servings 0x7f0a0184
+int id textView_similar_title 0x7f0a0185
 int id textView_time 0x7f0a015b
 int id textView_title 0x7f0a015c
 int id text_input_end_icon 0x7f0a015d
@@ -2055,6 +2060,7 @@ int layout design_text_input_end_icon 0x7f0d002c
 int layout design_text_input_start_icon 0x7f0d002d
 int layout list_meal_ingredients 0x7f0d002e
 int layout list_random_recipe 0x7f0d002f
+int layout list_similar_recipe 0x7f0d0066
 int layout mtrl_alert_dialog 0x7f0d0030
 int layout mtrl_alert_dialog_actions 0x7f0d0031
 int layout mtrl_alert_dialog_title 0x7f0d0032
