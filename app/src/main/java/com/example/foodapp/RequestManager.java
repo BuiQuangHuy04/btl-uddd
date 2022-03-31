@@ -4,8 +4,10 @@ import android.content.Context;
 
 import com.example.foodapp.Listeners.RandomRecipeResponseListener;
 import com.example.foodapp.Listeners.RecipeDetailsListener;
+import com.example.foodapp.Listeners.SimilarRecipesListener;
 import com.example.foodapp.Models.RandomRecipeApiResponse;
 import com.example.foodapp.Models.RecipeDetailsResponse;
+import com.example.foodapp.Models.SimilarRecipeResponse;
 
 import java.util.List;
 
@@ -38,7 +40,7 @@ public class RequestManager {
 
         call.enqueue(new Callback<RandomRecipeApiResponse>() {
             @Override
-            public void onResponse(Call<RandomRecipeApiResponse> call, Response<RandomRecipeApiResponse> response) {
+            public void onResponse(retrofit2.Call<RandomRecipeApiResponse> call, Response<RandomRecipeApiResponse> response) {
                 if (!response.isSuccessful()) {
                     listener.didError(response.message());
                     return;
@@ -47,7 +49,7 @@ public class RequestManager {
             }
 
             @Override
-            public void onFailure(Call<RandomRecipeApiResponse> call, Throwable t) {
+            public void onFailure(retrofit2.Call<RandomRecipeApiResponse> call, Throwable t) {
                 listener.didError(t.getMessage());
             }
         });
@@ -58,7 +60,7 @@ public class RequestManager {
         Call<RecipeDetailsResponse> call = callRecipeDetails.callRecipeDetails(id, context.getString(R.string.api_key));
         call.enqueue(new Callback<RecipeDetailsResponse>() {
             @Override
-            public void onResponse(Call<RecipeDetailsResponse> call, Response<RecipeDetailsResponse> response) {
+            public void onResponse(retrofit2.Call<RecipeDetailsResponse> call, Response<RecipeDetailsResponse> response) {
                 if (!response.isSuccessful()) {
                     listener.didError(response.message());
                     return;
@@ -67,8 +69,27 @@ public class RequestManager {
             }
 
             @Override
-            public void onFailure(Call<RecipeDetailsResponse> call, Throwable t) {
+            public void onFailure(retrofit2.Call<RecipeDetailsResponse> call, Throwable t) {
+                listener.didError(t.getMessage());
+            }
+        });
+    }
 
+    public void getSimilarRecipes(SimilarRecipesListener listener, int id) {
+        CallSimilarRecipes callSimilarRecipes = retrofit.create(CallSimilarRecipes.class);
+        Call<List<SimilarRecipeResponse>> call = callSimilarRecipes.callSimilarRecipe(id,"10",context.getString(R.string.api_key));
+        call.enqueue(new Callback<List<SimilarRecipeResponse>>() {
+            @Override
+            public void onResponse(Call<List<SimilarRecipeResponse>> call, Response<List<SimilarRecipeResponse>> response) {
+                if (!response.isSuccessful()) {
+                    listener.didError(response.message());
+                    return;
+                }
+                listener.didFetch(response.body(),response.message());
+            }
+
+            @Override
+            public void onFailure(Call<List<SimilarRecipeResponse>> call, Throwable t) {
                 listener.didError(t.getMessage());
             }
         });
@@ -76,21 +97,27 @@ public class RequestManager {
 
     private interface CallRandomRecipes {
         @GET("recipes/random")
-        Call<RandomRecipeApiResponse> callRandomRecipe(
-                @Query("apiKey") String apiKey,
-                @Query("number") String number,
-                @Query("tags") List<String> tags
+        retrofit2.Call<RandomRecipeApiResponse> callRandomRecipe(
+            @Query("apiKey") String apiKey,
+            @Query("number") String number,
+            @Query("tags") List<String> tags
         );
     }
 
     //recipes/324694/analyzedInstructions
     private interface CallRecipeDetails {
         @GET("recipes/{id}/information")
-        Call<RecipeDetailsResponse> callRecipeDetails(
-                @Path("id") int id,
-                @Query("apiKey") String apiKey
+        retrofit2.Call<RecipeDetailsResponse> callRecipeDetails(
+            @Path("id") int id,
+            @Query("apiKey") String apiKey
         );
     }
-
-
+    private interface CallSimilarRecipes{
+        @GET("recipes/{id}/similar")
+        Call<List<SimilarRecipeResponse>> callSimilarRecipe(
+            @Path("id") int id,
+            @Query("number") String number,
+            @Query("apiKey") String apiKey
+        );
+    }
 }

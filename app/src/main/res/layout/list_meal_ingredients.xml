@@ -1,29 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="120dp"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardElevation="8dp"
     android:layout_margin="8dp">
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="4dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content">
         <TextView
             android:id="@+id/textView_ingredients_quantity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ellipsize="marquee"
-            android:fontFamily="@font/akaya_telivigala"
-            android:marqueeRepeatLimit="marquee_forever"
-            android:padding="2dp"
-            android:scrollHorizontally="true"
-            android:singleLine="false"
-            android:text="2 cups of breadcumbs"
-            android:textAlignment="center"
+            android:text="1 cups of breadcrumbs"
             android:textColor="@color/black"
-            android:textSize="16dp" />
+            android:textStyle="bold"
+            android:fontFamily="@font/akaya_telivigala"
+            android:padding="4dp"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true" />
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="50dp"
@@ -35,14 +37,14 @@
             android:layout_height="wrap_content"
             android:text="Breadcumbs"
             android:fontFamily="@font/akaya_telivigala"
-            android:singleLine="false"
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:padding="4dp"
+            android:textAlignment="center"
+            android:singleLine="true"
             android:ellipsize="marquee"
             android:marqueeRepeatLimit="marquee_forever"
-            android:scrollHorizontally="true"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:textAlignment="center"
-            android:textSize="16dp"
-            android:padding="4dp"/>
+            android:scrollHorizontally="true" />
     </LinearLayout>
 </androidx.cardview.widget.CardView>
