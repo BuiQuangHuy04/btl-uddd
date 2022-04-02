@@ -55,8 +55,14 @@
                 android:textSize="16sp"
                 android:textColor="@color/white"
                 android:textStyle="normal"
+                android:maxLines="5"
                 android:padding="8dp"
                 android:fontFamily="@font/akaya_telivigala"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_meal_instructions"
                 android:layout_margin="8dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>

@@ -2,9 +2,11 @@ package com.example.foodapp;
 
 import android.content.Context;
 
+import com.example.foodapp.Listeners.InstructionsListener;
 import com.example.foodapp.Listeners.RandomRecipeResponseListener;
 import com.example.foodapp.Listeners.RecipeDetailsListener;
 import com.example.foodapp.Listeners.SimilarRecipesListener;
+import com.example.foodapp.Models.InstructionsResponse;
 import com.example.foodapp.Models.RandomRecipeApiResponse;
 import com.example.foodapp.Models.RecipeDetailsResponse;
 import com.example.foodapp.Models.SimilarRecipeResponse;
@@ -17,7 +19,6 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.http.GET;
-import retrofit2.http.Part;
 import retrofit2.http.Path;
 import retrofit2.http.Query;
 
@@ -40,7 +41,7 @@ public class RequestManager {
 
         call.enqueue(new Callback<RandomRecipeApiResponse>() {
             @Override
-            public void onResponse(retrofit2.Call<RandomRecipeApiResponse> call, Response<RandomRecipeApiResponse> response) {
+            public void onResponse(Call<RandomRecipeApiResponse> call, Response<RandomRecipeApiResponse> response) {
                 if (!response.isSuccessful()) {
                     listener.didError(response.message());
                     return;
@@ -49,7 +50,7 @@ public class RequestManager {
             }
 
             @Override
-            public void onFailure(retrofit2.Call<RandomRecipeApiResponse> call, Throwable t) {
+            public void onFailure(Call<RandomRecipeApiResponse> call, Throwable t) {
                 listener.didError(t.getMessage());
             }
         });
@@ -60,7 +61,7 @@ public class RequestManager {
         Call<RecipeDetailsResponse> call = callRecipeDetails.callRecipeDetails(id, context.getString(R.string.api_key));
         call.enqueue(new Callback<RecipeDetailsResponse>() {
             @Override
-            public void onResponse(retrofit2.Call<RecipeDetailsResponse> call, Response<RecipeDetailsResponse> response) {
+            public void onResponse(Call<RecipeDetailsResponse> call, Response<RecipeDetailsResponse> response) {
                 if (!response.isSuccessful()) {
                     listener.didError(response.message());
                     return;
@@ -69,7 +70,7 @@ public class RequestManager {
             }
 
             @Override
-            public void onFailure(retrofit2.Call<RecipeDetailsResponse> call, Throwable t) {
+            public void onFailure(Call<RecipeDetailsResponse> call, Throwable t) {
                 listener.didError(t.getMessage());
             }
         });
@@ -95,9 +96,29 @@ public class RequestManager {
         });
     }
 
+    public void getInstructions(InstructionsListener listener, int id) {
+        CallInstructions callInstructions = retrofit.create(CallInstructions.class);
+        Call<List<InstructionsResponse>> call = callInstructions.callInstructions(id, context.getString(R.string.api_key));
+        call.enqueue(new Callback<List<InstructionsResponse>>() {
+            @Override
+            public void onResponse(Call<List<InstructionsResponse>> call, Response<List<InstructionsResponse>> response) {
+                if (!response.isSuccessful()) {
+                    listener.didError(response.message());
+                    return;
+                }
+                listener.didFetch(response.body(), response.message());
+            }
+
+            @Override
+            public void onFailure(Call<List<InstructionsResponse>> call, Throwable t) {
+                listener.didError(t.getMessage());
+            }
+        });
+    }
+
     private interface CallRandomRecipes {
         @GET("recipes/random")
-        retrofit2.Call<RandomRecipeApiResponse> callRandomRecipe(
+        Call<RandomRecipeApiResponse> callRandomRecipe(
             @Query("apiKey") String apiKey,
             @Query("number") String number,
             @Query("tags") List<String> tags
@@ -107,7 +128,7 @@ public class RequestManager {
     //recipes/324694/analyzedInstructions
     private interface CallRecipeDetails {
         @GET("recipes/{id}/information")
-        retrofit2.Call<RecipeDetailsResponse> callRecipeDetails(
+        Call<RecipeDetailsResponse> callRecipeDetails(
             @Path("id") int id,
             @Query("apiKey") String apiKey
         );
@@ -118,6 +139,14 @@ public class RequestManager {
             @Path("id") int id,
             @Query("number") String number,
             @Query("apiKey") String apiKey
+        );
+    }
+
+    private interface CallInstructions {
+        @GET("recipes/{id}/analyzedInstructions")
+        Call<List<InstructionsResponse>> callInstructions(
+                @Path("id") int id,
+                @Query("apiKey") String apiKey
         );
     }
 }

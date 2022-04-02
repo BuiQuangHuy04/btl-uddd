@@ -1769,6 +1769,7 @@ id ignoreRequest
 id image
 id imageView_food
 id imageView_ingredients
+id imageView_instructions_step_items
 id imageView_meal_image
 id imageView_similar
 id info
@@ -1850,7 +1851,11 @@ id radio
 id random_list_container
 id ratio
 id rectangles
+id recycler_instruction_steps
+id recycler_instructions_equipments
+id recycler_instructions_ingredients
 id recycler_meal_ingredients
+id recycler_meal_instructions
 id recycler_meal_similar
 id recycler_random
 id reverseSawtooth
@@ -1936,6 +1941,10 @@ id textSpacerNoTitle
 id textStart
 id textView_ingredients_name
 id textView_ingredients_quantity
+id textView_instruction_name
+id textView_instructions_step_item
+id textView_instructions_step_number
+id textView_instructions_step_title
 id textView_likes
 id textView_meal_name
 id textView_meal_source
@@ -2059,6 +2068,9 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout list_instructions
+layout list_instructions_step_items
+layout list_instructions_steps
 layout list_meal_ingredients
 layout list_random_recipe
 layout list_similar_recipe

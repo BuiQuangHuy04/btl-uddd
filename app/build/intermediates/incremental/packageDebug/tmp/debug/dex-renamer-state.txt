@@ -1,19 +1,19 @@
-#Thu Mar 31 23:13:28 ICT 2022
+#Sat Apr 02 19:24:36 ICT 2022
 path.4=4/classes.dex
 path.3=1/classes.dex
 path.2=13/classes.dex
 path.1=0/classes.dex
 path.5=5/classes.dex
 path.0=classes.dex
-base.4=C\:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
-base.3=C\:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
-base.2=C\:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
-base.1=C\:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.0=C\:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.4=D\:\\btl-uddd\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
+base.3=D\:\\btl-uddd\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
+base.2=D\:\\btl-uddd\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
+base.1=D\:\\btl-uddd\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.0=D\:\\btl-uddd\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
 renamed.5=classes6.dex
 renamed.4=classes5.dex
-base.5=C\:\\Users\\buiqu\\Study\\PTUDDD\\FoodApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
+base.5=D\:\\btl-uddd\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex

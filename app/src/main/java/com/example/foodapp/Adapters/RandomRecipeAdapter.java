@@ -58,6 +58,7 @@ public class RandomRecipeAdapter extends RecyclerView.Adapter<RandomRecipeViewHo
         return list.size();
     }
 }
+
 class RandomRecipeViewHolder extends RecyclerView.ViewHolder {
     CardView random_list_container;
     TextView textView_title, textView_servings, textView_likes, textView_time;
