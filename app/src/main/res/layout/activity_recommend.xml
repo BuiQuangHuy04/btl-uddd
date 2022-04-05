@@ -5,34 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".RecommendActivity"
-    android:background="@color/blue">
-
-    <TextView
-        android:id="@+id/tv_Welcome"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="Welcome To My App"
-        android:textColor="@color/white"
-        android:textSize="40dp"
-        android:textStyle="italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+    android:background="@drawable/background">
 
     <Button
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:text="GO TO MY MAIN SCREEN"
-        app:layout_constraintBottom_toBottomOf="@+id/tv_Welcome"
+        android:layout_height="match_parent"
+        android:text="Welcome To AnDeeee"
+        android:fontFamily="@font/akaya_telivigala"
+        android:background="?android:attr/selectableItemBackground"
         app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="40dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/tv_Welcome"
         app:layout_constraintVertical_bias="0.673"
-        android:id="@+id/btn_GoTo"
-        />
+        android:id="@+id/btn_GoTo"/>
+
 
 
 
