@@ -1,29 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\btl-uddd\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "C:\\Users\\Admin\\StudioProjects\\btl-uddd-6\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "D:\\btl-uddd\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\Users\\Admin\\StudioProjects\\FOODY-APP1\\caches\\transforms-3\\50eb13aed7c7fb2c50cb4e3c22474119\\transformed\\material-1.2.1\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "16",
-                        "endColumns": "12",
-                        "endOffsets": "940"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,143,267,369,471,587,689,803,931,1047,1169,1305,1425,1559,1679,1791,1917,2055,2179,2309,2431,2569,2685",
+                        "endColumns": "87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,137,123,129,121,137,115,119",
+                        "endOffsets": "138,262,364,466,582,684,798,926,1042,1164,1300,1420,1554,1674,1786,1912,2050,2174,2304,2426,2564,2680,2800"
                     },
                     "to": {
-                        "startLines": "9",
-                        "startColumns": "4",
-                        "startOffsets": "732",
-                        "endLines": "23",
-                        "endColumns": "12",
-                        "endOffsets": "1570"
+                        "startLines": "24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,41,42,43,44,45,46,47",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1575,1663,1787,1889,1991,2107,2209,2323,2451,2567,2689,2825,2945,3079,3199,3311,3526,3664,3788,3918,4040,4178,4294",
+                        "endColumns": "87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,137,123,129,121,137,115,119",
+                        "endOffsets": "1658,1782,1884,1986,2102,2204,2318,2446,2562,2684,2820,2940,3074,3194,3306,3432,3659,3783,3913,4035,4173,4289,4409"
                     }
                 },
                 {
-                    "source": "C:\\Users\\phamq\\.gradle\\caches\\transforms-3\\16349600783fa4c0732e670111179c78\\transformed\\appcompat-1.2.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "C:\\Users\\Admin\\StudioProjects\\FOODY-APP1\\caches\\transforms-3\\84dd43fce67745afc7f40efcb5a3c9a6\\transformed\\appcompat-1.2.0\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -40,20 +38,22 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\phamq\\.gradle\\caches\\transforms-3\\df6822b4ba73a7c473e8051c3543d0a7\\transformed\\material-1.2.1\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "C:\\Users\\Admin\\StudioProjects\\btl-uddd-6\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,143,267,369,471,587,689,803,931,1047,1169,1305,1425,1559,1679,1791,1917,2055,2179,2309,2431,2569,2685",
-                        "endColumns": "87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,137,123,129,121,137,115,119",
-                        "endOffsets": "138,262,364,466,582,684,798,926,1042,1164,1300,1420,1554,1674,1786,1912,2050,2174,2304,2426,2564,2680,2800"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endLines": "16",
+                        "endColumns": "12",
+                        "endOffsets": "956"
                     },
                     "to": {
-                        "startLines": "24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,41,42,43,44,45,46,47",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "1575,1663,1787,1889,1991,2107,2209,2323,2451,2567,2689,2825,2945,3079,3199,3311,3526,3664,3788,3918,4040,4178,4294",
-                        "endColumns": "87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,137,123,129,121,137,115,119",
-                        "endOffsets": "1658,1782,1884,1986,2102,2204,2318,2446,2562,2684,2820,2940,3074,3194,3306,3432,3659,3783,3913,4035,4173,4289,4409"
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "732",
+                        "endLines": "23",
+                        "endColumns": "12",
+                        "endOffsets": "1570"
                     }
                 }
             ]

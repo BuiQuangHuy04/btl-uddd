@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\btl-uddd\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
+            "outputFile": "C:\\Users\\Admin\\StudioProjects\\btl-uddd-6\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\phamq\\.gradle\\caches\\transforms-3\\df6822b4ba73a7c473e8051c3543d0a7\\transformed\\material-1.2.1\\res\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
+                    "source": "C:\\Users\\Admin\\StudioProjects\\FOODY-APP1\\caches\\transforms-3\\50eb13aed7c7fb2c50cb4e3c22474119\\transformed\\material-1.2.1\\res\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

@@ -3,6 +3,14 @@ com/example/foodapp/Models/Metric.java
 com/example/foodapp/Adapters/InstructionStepAdapter.java
  com.example.foodapp.Adapters.InstructionStepAdapter
  com.example.foodapp.Adapters.InstructionStepViewHolder
+com/example/foodapp/Models/SimilarRecipeResponse.java
+ com.example.foodapp.Models.SimilarRecipeResponse
+com/example/foodapp/MainActivity.java
+ com.example.foodapp.MainActivity
+ com.example.foodapp.MainActivity$1
+ com.example.foodapp.MainActivity$2
+ com.example.foodapp.MainActivity$3
+ com.example.foodapp.MainActivity$4
 com/example/foodapp/Adapters/InstructionsEquipmentsAdapter.java
  com.example.foodapp.Adapters.InstructionEquipmentsViewHolder
  com.example.foodapp.Adapters.InstructionsEquipmentsAdapter
@@ -37,6 +45,10 @@ com/example/foodapp/Models/Measures.java
 com/example/foodapp/Adapters/IngredientsAdapter.java
  com.example.foodapp.Adapters.IngredientsAdapter
  com.example.foodapp.Adapters.IngredientsViewHoder
+com/example/foodapp/Adapters/RandomRecipeAdapter.java
+ com.example.foodapp.Adapters.RandomRecipeAdapter
+ com.example.foodapp.Adapters.RandomRecipeAdapter$1
+ com.example.foodapp.Adapters.RandomRecipeViewHolder
 com/example/foodapp/Models/InstructionsResponse.java
  com.example.foodapp.Models.InstructionsResponse
 com/example/foodapp/Models/ProductMatch.java
@@ -73,15 +85,11 @@ com/example/foodapp/RequestManager.java
  com.example.foodapp.RequestManager$CallRandomRecipes
  com.example.foodapp.RequestManager$CallRecipeDetails
  com.example.foodapp.RequestManager$CallSimilarRecipes
-com/example/foodapp/MainActivity.java
- com.example.foodapp.MainActivity
- com.example.foodapp.MainActivity$1
- com.example.foodapp.MainActivity$2
- com.example.foodapp.MainActivity$3
- com.example.foodapp.MainActivity$4
-com/example/foodapp/Models/SimilarRecipeResponse.java
- com.example.foodapp.Models.SimilarRecipeResponse
-com/example/foodapp/Adapters/RandomRecipeAdapter.java
- com.example.foodapp.Adapters.RandomRecipeAdapter
- com.example.foodapp.Adapters.RandomRecipeAdapter$1
- com.example.foodapp.Adapters.RandomRecipeViewHolder
+com/example/foodapp/RecommendActivity.java
+ com.example.foodapp.RecommendActivity
+com/example/foodapp/SignUpActivity.java
+ com.example.foodapp.SignUpActivity
+ com.example.foodapp.SignUpActivity$1
+com/example/foodapp/SignInActivity.java
+ com.example.foodapp.SignInActivity
+ com.example.foodapp.SignInActivity$1
