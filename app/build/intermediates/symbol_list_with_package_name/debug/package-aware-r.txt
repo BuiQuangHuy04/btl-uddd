@@ -2557,7 +2557,6 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
-drawable recaptcha
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -2669,16 +2668,17 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btnCheck
 id btnSU
 id btnSignIn
 id btnSignUp
+id btnVerify
 id btn_GoTo
 id buttonPanel
 id cache_measures
 id callMeasure
 id cancel_button
 id carryVelocity
-id cbRobot
 id center
 id center_horizontal
 id center_vertical
@@ -2813,7 +2813,6 @@ id item2
 id item3
 id item4
 id item_touch_helper_previous_elevation
-id ivCaptcha
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -3005,6 +3004,10 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id tVPlus
+id tVRandom1
+id tVRandom2
+id tVTotal
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -3070,6 +3073,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_Welcome
 id unchecked
 id uniform
 id unlabeled

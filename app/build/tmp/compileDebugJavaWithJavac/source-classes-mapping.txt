@@ -9,8 +9,6 @@ com/example/foodapp/SignUpActivity.java
 com/example/foodapp/SignInActivity.java
  com.example.foodapp.SignInActivity
  com.example.foodapp.SignInActivity$1
- com.example.foodapp.SignInActivity$2
- com.example.foodapp.SignInActivity$3
 com/example/foodapp/Adapters/InstructionsEquipmentsAdapter.java
  com.example.foodapp.Adapters.InstructionEquipmentsViewHolder
  com.example.foodapp.Adapters.InstructionsEquipmentsAdapter
