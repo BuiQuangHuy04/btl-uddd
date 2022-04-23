@@ -1730,13 +1730,14 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btnCheck
 id btnSU
 id btnSignIn
 id btnSignUp
+id btnVerify
 id btn_GoTo
 id buttonPanel
 id cancel_button
-id cbRobot
 id center
 id center_horizontal
 id center_vertical
@@ -1840,7 +1841,6 @@ id info
 id invisible
 id italic
 id item_touch_helper_previous_elevation
-id ivCaptcha
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -1986,6 +1986,10 @@ id stop
 id stretch
 id submenuarrow
 id submit_area
+id tVPlus
+id tVRandom1
+id tVRandom2
+id tVTotal
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans

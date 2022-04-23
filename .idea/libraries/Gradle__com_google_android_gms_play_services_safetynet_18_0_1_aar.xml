@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-safetynet:18.0.1@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../FOODY-APP1/caches/transforms-3/da2f1cd18d7eb29c2a885781f07b7ba5/transformed/jetified-play-services-safetynet-18.0.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../FOODY-APP1/caches/transforms-3/da2f1cd18d7eb29c2a885781f07b7ba5/transformed/jetified-play-services-safetynet-18.0.1/res" />
+      <root url="file://$PROJECT_DIR$/../FOODY-APP1/caches/transforms-3/da2f1cd18d7eb29c2a885781f07b7ba5/transformed/jetified-play-services-safetynet-18.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../FOODY-APP1/caches/modules-2/files-2.1/com.google.android.gms/play-services-safetynet/18.0.1/f95c1a7a505e9d4679a4de82b3825e53656c6ecf/play-services-safetynet-18.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
