@@ -3,7 +3,14 @@ package com.example.foodapp;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Notification;
+import android.app.NotificationChannel;
+import android.app.NotificationManager;
+import android.content.Context;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.os.Build;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.widget.Button;
@@ -19,6 +26,9 @@ public class SignUpActivity extends AppCompatActivity {
     Button btnSU;
     TextView eVRPassSU, eVPassSU,eVEmailSU;
     private FirebaseAuth auth = FirebaseAuth.getInstance();
+    private static final int nid = 1;
+    public static final int PRIMARY_FOREGROUND_NOTIF_SERVICE_ID = 1001;
+
 
 
     @Override
@@ -32,10 +42,11 @@ public class SignUpActivity extends AppCompatActivity {
         eVEmailSU = findViewById(R.id.eVEmailSU);
 
         btnSU.setOnClickListener(view -> {
-            SignUp();
+            signUp();
+            notification();
         });
     }
-    private void SignUp() {
+    private void signUp() {
         String email = eVEmailSU.getText().toString();
         String pass = eVPassSU.getText().toString();
         String repass = eVRPassSU.getText().toString();
@@ -58,10 +69,46 @@ public class SignUpActivity extends AppCompatActivity {
                     }
                 }
             });
-        }else{
+        }
+    }
+    private void notification() {
+//        Bitmap bitmap = BitmapFactory.decodeResource(getResources(),R.mipmap.ic_launcher);
+//
+//        Notification notification = new Notification.Builder(this)
+//                .setContentTitle("FOOOAPP")
+//                .setContentText("Email:  Was Signed Up Successfully")
+//                .setSmallIcon(R.drawable.background)
+//                .setLargeIcon(bitmap)
+//                .build();
+//
+//        NotificationManager notificationManager = (NotificationManager) getSystemService((Context.NOTIFICATION_SERVICE));
+//
+//        if(notificationManager !=null){
+//            notificationManager.notify(nid,notification);
+//        }
+
+        //   }
+        Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.background);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+
+            String id = "_channel_01";
+            int importance = NotificationManager.IMPORTANCE_LOW;
+            NotificationChannel mChannel = new NotificationChannel(id, "notification", importance);
+            mChannel.enableLights(true);
+
+            Notification notification = new Notification.Builder(getApplicationContext(), id)
+                    .setContentTitle("FOODAPP MESSAGE")
+                    .setContentText("Sign Up Successfully !!")
+                    .setSmallIcon(R.drawable.ic_launcher_background)
+                    .setLargeIcon(bitmap)
+                    .build();
+
+            NotificationManager mNotificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+            if (mNotificationManager != null) {
+                mNotificationManager.createNotificationChannel(mChannel);
+                mNotificationManager.notify(PRIMARY_FOREGROUND_NOTIF_SERVICE_ID, notification);
+            }
 
         }
-
-
     }
-}
+    }
