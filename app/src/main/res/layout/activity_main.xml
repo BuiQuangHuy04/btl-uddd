@@ -52,7 +52,6 @@
             app:queryHint="Bạn thèm gì khum..."
             app:iconifiedByDefault="false"
             app:searchIcon="@mipmap/ic_search">
-
         </androidx.appcompat.widget.SearchView>
     </androidx.cardview.widget.CardView>
 
