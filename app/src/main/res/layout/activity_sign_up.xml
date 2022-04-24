@@ -4,10 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    android:background="@drawable/background"
     tools:context=".SignUpActivity">
-
-
 
     <EditText
         android:id="@+id/eVEmailSU"
@@ -16,6 +14,7 @@
         android:ems="10"
         android:hint="Email"
         android:inputType="textPersonName"
+        android:fontFamily="@font/akaya_telivigala"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
@@ -30,6 +29,7 @@
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
+        android:fontFamily="@font/akaya_telivigala"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.485"
@@ -43,6 +43,7 @@
         android:ems="10"
         android:hint="Reenter Password"
         android:inputType="textPassword"
+        android:fontFamily="@font/akaya_telivigala"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.485"
@@ -54,8 +55,10 @@
         android:id="@+id/btnSU"
         android:layout_width="407dp"
         android:layout_height="57dp"
-        android:backgroundTint="#039BE5"
+        android:backgroundTint="@color/orange"
         android:text="Sign Up"
+        app:cornerRadius="15dp"
+        android:fontFamily="@font/akaya_telivigala"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
