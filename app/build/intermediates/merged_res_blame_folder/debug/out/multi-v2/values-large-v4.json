@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\buiqu\\Study\\PTUDDD\\btl-uddd-Son\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\buiqu\\.gradle\\caches\\transforms-3\\daec56630d897aa40e0fc6356687505b\\transformed\\appcompat-1.4.1\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\buiqu\\.gradle\\caches\\transforms-3\\66c1aa9b72b227650eb373aa54dfdbbb\\transformed\\appcompat-1.4.1\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\buiqu\\.gradle\\caches\\transforms-3\\47f84bc0f14ff0f8b692f7af2e9e9e3d\\transformed\\material-1.5.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\buiqu\\.gradle\\caches\\transforms-3\\2b35e19e499948adea817247d236a47f\\transformed\\material-1.5.0\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,10",
                         "startColumns": "4,4,4,4",
